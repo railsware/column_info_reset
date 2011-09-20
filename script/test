@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "*** Against ActiveRecord v1.x.x"
+script/bundle-ar1 exec spec -f progress -c spec
+
+echo "*** Against ActiveRecord v3.x.x"
+script/bundle-ar3 exec rspec -f progress -c spec

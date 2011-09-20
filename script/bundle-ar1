@@ -1,0 +1,2 @@
+#!/bin/bash
+BUNDLE_GEMFILE=Gemfile-ar1 rvm ruby-1.8.6 exec bundle $*
